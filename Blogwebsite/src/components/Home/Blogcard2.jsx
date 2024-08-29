@@ -3,7 +3,8 @@ import {Link} from 'react-router-dom'
 
 const Blogcard2 = () => {
   return (
-    <div class="p-4 md:w-[400px]">
+ <Link to={"/blogdetail/title"}>
+    <div class="p-4 md:w-[380px]">
     <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
       <img class="lg:h-48 md:h-36 w-full object-cover object-center" src="https://dummyimage.com/720x400" alt="blog"/>
       <div class="p-6">
@@ -32,6 +33,7 @@ const Blogcard2 = () => {
       </div>
     </div>
   </div>
+ </Link>
   )
 }
 
